@@ -4,7 +4,7 @@ from flask import render_template
 @app.route('/')
 @app.route('/index')
 def index():
- user = {'nickname': 'Miguel'}
+ user = "William"
  posts = [
  { 
   'author':  {'nickname': 'John'},
